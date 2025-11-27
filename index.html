@@ -24,7 +24,7 @@ function obtemPacienteDoFormulario(form){
         gordura: form.gordura.value,
         imc: calcularImc(form.peso.value, form.altura.value);
     }
-    return paciente;(!pesoEhValido) {
+    return paciente;(!calcularpesoEhValido) {
         console.log("Peso inválido");
         pesoEhValido = false;
         tdImc.textContent = "Peso inválido";
